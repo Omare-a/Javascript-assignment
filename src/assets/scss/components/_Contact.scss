@@ -1,0 +1,135 @@
+.contact-boxes {
+    margin-top: 110px;
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: content-box;
+        justify-content: space-between;
+        align-items: center;
+        // margin-bottom: 20px;
+        // border: solid;
+
+        .contact-box {
+            display: flex;
+            column-gap: 20px;
+            max-width: 420px;
+            max-height: 206px;
+            width: 100%;
+            padding: 60px 100px 35px 60px;
+            margin-bottom: 90px;
+            border: 1px solid #DAD9D3;
+
+
+            i {
+                background-color: #191919;
+                display: flex;
+                align-items: center;
+                padding: 30px 20px;
+                max-height: 35px;
+                border-radius: 100%;
+                color: #FFFFFF;
+                font-weight: 500;
+                font-size: 22px;
+            }
+            
+            .contact-info{
+                display: block;
+                
+                h3 {
+                    // margin-bottom: 25px;
+                    font-family: 'dm sans', sans-serif;
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: #191919;
+                }
+    
+                p {
+                    line-height: 9px;
+                    color: RGBA(25,25,25,0.8 );
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-top: 20px;
+                    
+                }
+    
+                
+            }
+
+           
+        }
+
+    }
+}
+
+.message {
+
+    .container {
+        background-color: #F0EFE9;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        border-radius: 10px;
+        .section-title {
+            text-align: center;
+        }
+
+        .inner-container {
+            max-width: 1040px;
+            max-height: 460px;
+            display: block;
+            margin: 0 auto;
+            padding: 0 20px;
+
+            label{
+                color: red;
+                font-size: 0.9em;
+                margin: 0px;
+                display: block;
+                text-align: start;
+                padding-left: 20px;
+            }
+
+            input {
+                display: block;
+                margin: 2px auto 20px;
+                border-radius: 30px;
+                padding: 15px 30px;
+                width: 100%;
+                border: none;
+            }
+
+            .error{
+                color: rgb(247, 57, 57);
+                border: 1px solid red;
+            }
+            .errorMessage{
+                color: rgb(247, 57, 57);
+                display: block;
+                text-align: center;
+                padding: 0px;
+                margin: 0px;
+                font-size: 30px;
+                
+                
+            }
+
+
+            textarea {
+                display: block;
+                border-radius: 40px;
+                padding: 15px 30px;
+                resize: none;
+                margin: 0 auto 40px;
+                width: 100%;
+                height: 180px;
+                border: none;
+            }
+
+            button {
+                margin: 0 auto;
+                width: 100%;
+            }
+        }
+    }
+}
