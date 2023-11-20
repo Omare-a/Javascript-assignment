@@ -1,0 +1,18 @@
+.notfound{
+    display: flex;
+    text-align: center;
+    font-size: 50px;
+    height: 53dvh;
+    align-items: center;
+    font-weight: 500;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .fourofour{
+            width: 40%;
+            border-radius: 200px;
+        }
+    }
+}

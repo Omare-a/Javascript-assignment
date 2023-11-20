@@ -1151,6 +1151,25 @@ footer .parent-social .child-social .socials a {
   color: #FFFFFF;
 }
 
+.notfound {
+  display: flex;
+  text-align: center;
+  font-size: 50px;
+  height: 53dvh;
+  align-items: center;
+  font-weight: 500;
+}
+.notfound .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notfound .container .fourofour {
+  width: 40%;
+  border-radius: 200px;
+}
+
 .contact-boxes {
   margin-top: 110px;
 }
